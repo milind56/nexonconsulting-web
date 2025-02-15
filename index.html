@@ -58,25 +58,52 @@
  </div>
  <!-- Preloader End -->
 
+ <!-- Header JS Function Start -->
+ <script>
+   window.onload = function() {myLoadFunction()};
+   function myLoadFunction() {
+      document.getElementById("topDiv").style.display = "block";
+      document.getElementById("msgDiv").style.paddingBottom = "15px";
+      document.getElementById("mainDiv").style.paddingTop = "15px";
+   }
+   </script>
+
+ <script>
+   window.onscroll = function() {myHideFunction()};
+   function myHideFunction() {
+     if (document.documentElement.scrollTop > 20) {
+       document.getElementById("topDiv").style.display = "none";
+       document.getElementById("msgDiv").style.paddingBottom = "0px";
+       document.getElementById("mainDiv").style.paddingTop = "0px";
+     } else {
+       document.getElementById("topDiv").style.display = "block";
+       document.getElementById("msgDiv").style.paddingBottom = "15px";
+       document.getElementById("mainDiv").style.paddingTop = "15px";
+     }
+   }
+   </script>
+<!-- Header JS Function End -->
 
 <!--=====HEADER START=======-->
 <header>
    <div id="vl-header-sticky" class="vl-header-area1 header-tranperent">
        <div class="container header1-bg">
-         <div class="header1-top pb-16 md:pb-0 sm:pb-0 d-none d-lg-block">
-            <div class="row">
-               <div class="col-lg-6">
-                  <p class="black1 font-18 black2 leading-18 font-medium">Are you Ready to Free Business Consulting Today?  <a href="contact.html" class="black2 font-18 leading-18 font-medium inline-block text _hover1 underline">Contact Us</a></p>
-               </div>
-               <div class="col-lg-6">
-                  <div class="header-contact-wedget">
-                     <a href="mailto:parag@nexonconsulting.com" class="black2 font-18 leading-18 font-medium inline-block text _hover1"><img src="assets/img/icons/header-contact1.svg" alt=""> parag@nexonconsulting.com</a>
-                     <a href="tel:+971 04 529 7820" class="black2 ml-30 font-18 leading-18 font-medium inline-block text _hover1"><img src="assets/img/icons/header-contact2.svg" alt=""> +971 04 529 7820</a>
+         <div style="" id="topDiv">
+            <div class="header1-top md:pb-0 sm:pb-0 d-none d-lg-block" id="msgDiv">
+               <div class="row">
+                  <div class="col-lg-6">
+                     <p class="black1 font-18 black2 leading-18 font-medium">Are you Ready to Free Business Consulting Today?  <a href="contact.html" class="black2 font-18 leading-18 font-medium inline-block text _hover1 underline">Contact Us</a></p>
+                  </div>
+                  <div class="col-lg-6">
+                     <div class="header-contact-wedget">
+                        <a href="mailto:parag@nexonconsulting.com" class="black2 font-18 leading-18 font-medium inline-block text _hover1"><img src="assets/img/icons/header-contact1.svg" alt=""> parag@nexonconsulting.com</a>
+                        <a href="tel:+971 04 529 7820" class="black2 ml-30 font-18 leading-18 font-medium inline-block text _hover1"><img src="assets/img/icons/header-contact2.svg" alt=""> +971 04 529 7820</a>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
-           <div class="row align-items-center pt-16 sm:pt-0 md:pt-0">
+           <div class="row align-items-center sm:pt-0 md:pt-0" id="mainDiv">
                <div class="col-lg-2 col-md-6 col-6">
                    <div class="vl-logo">
                        <a href="index.html" class="header1-logo-block"><img src="assets/img/logo/nexon-logo.png" alt=""></a>
@@ -163,7 +190,7 @@
                   <div class="col-lg-6">
                      <div class="heading mt-50 md:mt-100 sm:mt-100 _relative z-9">
                         <span class="sub-title text-18 leading-18 flex white1 uppercase mb-20 font-medium"><img src="assets/img/icons/n-logo.png" alt=""> Delivering Results That Matter</span>
-                        <h1 class="text-56 md:text-40 sm:text-40 leading64 inline-block white1 font-semibold">Unlock The Future Of Business Consulting</h1>
+                        <h1 class="text-56 md:text-40 sm:text-40 leading64 inline-block white1 font-semibold">Unlock The Future Of Consulting</h1>
                         <p class="mt-16 text-18 leading-26 inline-block white1">We specialize in providing tailored consulting services that <br> drive success an transformation for businesses of all sizes.</p>
                         <div class="button mt-30">
                            <a class="theme-btn1" href="contact.html"><span class="text">Contact Us</span><span class="arrow-all"><span class="arrow1"><i class="fa-regular fa-arrow-right"></i></span><span class="arrow2"><i class="fa-regular fa-arrow-right"></i></span></span></a>
