@@ -6620,7 +6620,8 @@ a:focus {
     height: 100%;
     width: 98.3%;
     border-radius: 0px 0px 8px 8px;
-    background-color: var(--vtc-text-white);
+    /* background-color: var(--vtc-text-white); */
+    background-color: rgb(38 52 113);
     z-index: -1;
   }
   .header1-bg::before {
@@ -7142,14 +7143,16 @@ a:focus {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .vl-header-area1 {
     padding-top: 12px;
-    background-color: var(--vtc-bg-white2);
+    /* background-color: var(--vtc-bg-white2); */
+    background-color: rgb(38 52 113);
     padding-bottom: 12px;
   }
 }
 @media (max-width: 767px) {
   .vl-header-area1 {
     padding-top: 12px;
-    background-color: var(--vtc-bg-white2);
+    /* background-color: var(--vtc-bg-white2); */
+    background-color: rgb(38 52 113);
     padding-bottom: 12px;
   }
 }
@@ -7166,7 +7169,8 @@ a:focus {
   justify-content: space-between;
 }
 .vl-header-area1 .vl-main-menu ul > li > a {
-  color: var(--vtc-text-title-2);
+  /* color: var(--vtc-text-title-2); */
+  color: white;
   font-size: var(--f-fs-font-18);
   display: inline-block;
   position: relative;
@@ -7187,7 +7191,8 @@ a:focus {
   top: 201%;
   width: 220px;
   left: 0;
-  background: #fff;
+  /* background: #fff; */
+  background: rgb(38 52 113);;
   padding: 12px 20px 8px;
   opacity: 0;
   visibility: hidden;
@@ -7216,7 +7221,8 @@ a:focus {
   text-align: start;
 }
 .vl-header-area1 .vl-main-menu ul > li .sub-menu li a {
-  color: var(--ztc-text-text-2);
+  /* color: var(--ztc-text-text-2); */
+  color:white;
   display: inline-block;
   font-size: var(--f-fs-font-18);
   position: relative;
@@ -7489,7 +7495,8 @@ a:focus {
 }
 @media (max-width: 767px) {
   .vl-header-area1.header-sticky {
-    background: var(--vtc-bg-white2);
+    /* background: var(--vtc-bg-white2); */
+    background-color: rgb(38 52 113);
     padding: 10px 0px 10px 0px;
   }
 }
@@ -7528,6 +7535,7 @@ a:focus {
   text-align: center;
   border-radius: 8px;
   font-size: var(--f-fs-font-22);
+  background-color: white;
 }
 
 .vl-offcanvas {
@@ -7556,6 +7564,7 @@ a:focus {
   opacity: 1;
   visibility: visible;
   transform: translateX(0);
+  background-color: rgb(38 52 113);
 }
 .vl-offcanvas-close-toggle {
   font-size: var(--f-fs-font-24);
@@ -7619,7 +7628,8 @@ a:focus {
   border: none;
   background: none;
   outline: none;
-  color: var(--vtc-text-title-1);
+  /* color: var(--vtc-text-title-1); */
+  color: white;
 }
 
 .vl-offcanvas-menu ul {
@@ -7633,7 +7643,8 @@ a:focus {
   display: block;
   font-size: var(--f-fs-font-18);
   font-weight: var(--f-fw-medium);
-  color: var(--vtc-text-title-1);
+  /* color: var(--vtc-text-title-1); */
+  color: white;
   transition: all 0.4s;
 }
 .vl-offcanvas-menu ul li a span {
@@ -7657,7 +7668,8 @@ a:focus {
   position: absolute;
   right: 0;
   top: 7px;
-  border: 1px solid var(--vtc-text-title-1);
+  /* border: 1px solid var(--vtc-text-title-1); */
+  border: 1px solid white;
   height: 30px;
   width: 30px;
   text-align: center;
