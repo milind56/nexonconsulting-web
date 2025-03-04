@@ -1835,7 +1835,7 @@ a:focus {
   display: block;
   width: 70px;
   height: 70px;
-  background: var(--vtc-bg-main1);
+  background: #c38800;
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
   opacity: 0.4;
@@ -1850,7 +1850,7 @@ a:focus {
   display: block;
   width: 55px;
   height: 55px;
-  background: var(--vtc-bg-main1);
+  background: #c38800;
   border-radius: 50%;
   transition: all 200ms;
 }
@@ -2078,7 +2078,7 @@ a:focus {
 }
 
 .theme-pagination li a:hover, .theme-pagination li a.active {
-  background: var(--vtc-bg-main1);
+  background: #c38800;
   transition: all 0.3s;
   color: var(--vtc-text-title-1);
 }
@@ -2102,7 +2102,7 @@ a:focus {
 .theme-btn1 span.text {
   display: inline-block;
   padding: 18px 24px;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
   color: var(--vtc-text-title-2);
   font-size: var(--f-fs-font-18);
   font-style: normal;
@@ -2114,7 +2114,7 @@ a:focus {
 }
 .theme-btn1 span.arrow-all {
   display: inline-block;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
   color: var(--vtc-text-title-2);
   font-size: var(--f-fs-font-18);
   font-style: normal;
@@ -3311,7 +3311,7 @@ a:focus {
 }
 .hero1 .hero1-arrow-buttons button:hover {
   transition: all 0.4s;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
 }
 
 .hero2 .sub-title img {
@@ -4710,7 +4710,7 @@ a:focus {
 }
 .text._hover1:hover {
   transition: all 0.4s;
-  color: var(--vtc-bg-main1);
+  color: #c38800;
 }
 .text._hover2 {
   transition: all 0.4s;
@@ -5121,7 +5121,7 @@ a:focus {
 }
 .details-content .tags-social-area .tags ul .tag a:hover {
   transition: all 0.4s;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
 }
 @media (max-width: 767px) {
   .details-content .tags-social-area .social-area {
@@ -5152,7 +5152,7 @@ a:focus {
 }
 .details-content .tags-social-area .social-area ul .icon a:hover {
   transition: all 0.4s;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
 }
 
 .comment-area .single-comment {
@@ -5197,7 +5197,7 @@ a:focus {
 }
 .comment-area .single-comment .top-area .author-area .text h4 a:hover {
   transition: all 0.4;
-  color: var(--vtc-bg-main1);
+  color: #c38800;
 }
 .comment-area .single-comment .top-area .reply a {
   display: inline-block;
@@ -5211,7 +5211,7 @@ a:focus {
 }
 .comment-area .single-comment .top-area .reply a:hover {
   transition: all 0.4s;
-  color: var(--vtc-bg-main1);
+  color: #c38800;
 }
 .comment-area .single-comment p {
   color: var(--vtc-text-pera-1);
@@ -5345,7 +5345,7 @@ a:focus {
   text-align: center;
   line-height: 28px;
   border-radius: 50%;
-  color: var(--vtc-bg-main1);
+  color: #c38800;
   background-color: rgba(255, 255, 255, 0.1098039216);
   font-size: 14px;
   margin-left: 2px;
@@ -5354,7 +5354,7 @@ a:focus {
 .sidebar-area ._sidebar-contact_widget ._social .icons ul li a:hover {
   transition: all 0.4s;
   color: var(--vtc-text-title-1);
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
 }
 .sidebar-area ._sidebar-contact_widget ._contact-form input, .sidebar-area ._sidebar-contact_widget ._contact-form textarea {
   background-color: rgba(255, 255, 255, 0.0941176471);
@@ -5410,7 +5410,7 @@ a:focus {
   border-radius: 8px;
 }
 .sidebar-area ._sidebar-widget._list ul li a:hover {
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
   transition: all 0.4s;
   color: var(--vtc-text-title-1);
 }
@@ -5434,7 +5434,7 @@ a:focus {
 }
 .sidebar-area ._sidebar-widget._tags .tags-list ul li a:hover {
   transition: all 0.4s;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
 }
 .sidebar-area ._sidebar-widget._search form input {
   padding: 16px;
@@ -5521,7 +5521,7 @@ a:focus {
 }
 .sidebar-area ._sidebar-widget._recent .recent-blog .recent-blog-post .content h4 a:hover {
   transition: all 0.4s;
-  color: var(--vtc-bg-main1);
+  color: #c38800;
 }
 .sidebar-area ._sidebar-widget._recent .recent-blog .recent-blog-post:hover .image img {
   transition: all 0.4s;
@@ -5943,7 +5943,7 @@ a:focus {
 }
 .vl-blog-page1-item .learn3 span {
   transition: all 0.4s;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
   color: var(--vtc-text-title-1);
 }
 .vl-blog-page1-item .vl-blog-2-content {
@@ -5995,7 +5995,7 @@ a:focus {
 }
 .vl-blog-page1-item:hover .vl-blog-2-content .learn3 span {
   transition: all 0.4s;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
 }
 .vl-blog-page1-item:hover .vl-blog-2-content .learn3 .arrow-all {
   transform: translateX(3px);
@@ -6055,7 +6055,7 @@ a:focus {
   text-align: center;
   line-height: 26px;
   color: var(--vtc-text-title-1);
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
   margin-top: -13px;
   margin-left: -13px;
   border-radius: 4px;
@@ -6100,7 +6100,7 @@ a:focus {
 }
 .vl-copyright-social a:hover {
   transition: all 0.4s;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
 }
 
 .vl-footer-list a {
@@ -6631,7 +6631,7 @@ a:focus {
     top: 0;
     height: 100%;
     width: 6px;
-    background-color: var(--vtc-bg-main1);
+    background-color: #c38800;
     z-index: 0;
     border-radius: 0px 0px 0px 8px;
   }
@@ -6674,7 +6674,7 @@ a:focus {
 }
 .header1-social-wedget a:hover {
   transition: all 0.4s;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
 }
 
 .header1-logo-white {
@@ -7178,13 +7178,13 @@ a:focus {
   padding: 0 16px;
 }
 .vl-header-area1 .vl-main-menu ul > li > a.active {
-  color: var(--vtc-bg-main1);
+  color: #c38800;
 }
 .vl-header-area1 .vl-main-menu ul > li > a:hover {
-  color: var(--vtc-bg-main1);
+  color: #c38800;
 }
 .vl-header-area1 .vl-main-menu ul > li:hover a {
-  color: var(--vtc-bg-main1);
+  color: #c38800;
 }
 .vl-header-area1 .vl-main-menu ul > li .sub-menu {
   position: absolute;
@@ -7208,7 +7208,7 @@ a:focus {
   top: 0;
   height: 2px;
   width: 100%;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
   top: 0;
   left: 0;
 }
@@ -7240,7 +7240,7 @@ a:focus {
   top: 2px;
   right: auto;
   z-index: 1;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
 }
 .vl-header-area1 .vl-main-menu ul > li .sub-menu li a:hover::after {
   width: 2px;
@@ -7259,7 +7259,7 @@ a:focus {
   transform: scale(1, 0);
 }
 .vl-header-area1 .vl-main-menu ul > li .sub-menu li:hover > a {
-  color: var(--vtc-bg-main1);
+  color: #c38800;
 }
 .vl-header-area1 .vl-main-menu ul > li .sub-menu li:hover > a::after {
   width: 3px;
@@ -7271,7 +7271,7 @@ a:focus {
   transform: scale(1);
 }
 .vl-header-area1 .vl-main-menu ul > li:hover a {
-  color: var(--vtc-bg-main1);
+  color: #c38800;
 }
 .vl-header-area1 .vl-main-menu ul > li:hover .sub-menu {
   opacity: 1;
@@ -7320,7 +7320,7 @@ a:focus {
   top: 0;
   height: 2px;
   width: 100%;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
   top: 0;
   left: 0;
 }
@@ -7453,7 +7453,7 @@ a:focus {
 }
 .vl-header-area1 .vl-home-thumb a:hover {
   transition: all 0.4s;
-  color: var(--vtc-bg-main1);
+  color: #c38800;
 }
 .vl-header-area1 .vl-home-thumb:hover .btn-area1 {
   visibility: visible;
@@ -9266,7 +9266,7 @@ a:focus {
 }
 .about1-list ul li span {
   display: inline-block;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
   height: 20px;
   width: 20px;
   line-height: 20px;
@@ -9886,7 +9886,7 @@ a:focus {
   margin-right: 5px;
 }
 .servie1-arrow-buttons button:hover {
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
   color: var(--vtc-text-title-1);
 }
 
@@ -10960,7 +10960,7 @@ a:focus {
 }
 .case1-box .content-area .arrow {
   display: inline-block;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
   height: 54px;
   width: 54px;
   line-height: 54px;
@@ -11663,7 +11663,7 @@ a:focus {
 }
 .team1-box .image-area .icons ul li a:hover {
   transition: all 0.4s;
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
 }
 .team1-box:hover {
   transform: translateY(-10px);
@@ -12299,7 +12299,7 @@ a:focus {
   margin-right: 5px;
 }
 .tes1-arrows button:hover {
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
   color: var(--vtc-text-title-1);
 }
 
@@ -13028,7 +13028,7 @@ a:focus {
 .work1-box:hover .number {
   transition: all 0.4s;
   color: var(--vtc-bg-white2);
-  background-color: var(--vtc-bg-main1);
+  background-color: #c38800;
 }
 .work1-box:hover .image img {
   transition: all 0.4s;
@@ -13867,7 +13867,7 @@ a:focus {
 }
 .contact-page-sec .contact-page-boxs .contact-page-box .text a:hover {
   transition: all 0.4s;
-  color: var(--vtc-bg-main1);
+  color: #c38800;
 }
 .contact-page-sec .contact-page-boxs .contact-page-box:hover {
   transition: all 0.4s;
